@@ -15,7 +15,6 @@ const card7 = "../IMAGENS/card-7.jpeg";
 // const card8 = "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149551&type=card";
 const card8 = "../IMAGENS/card-8.jpeg";
 
-
 const image = document.querySelector(".mainclass-image img");
 const cards = [card1, card2, card3, card4, card5, card6, card7, card8];
 const buttons = document.querySelectorAll(".mainclass-buttons button");
