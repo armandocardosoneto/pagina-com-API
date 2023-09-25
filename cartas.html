@@ -2,45 +2,28 @@
 <html lang="en">
 <head>
       <meta charset="utf-8">
-      <meta name="Magic: The Gathering for beginners" content="Magic: The gathering principais cartas">
-      <title>MAGIC: The Gathering</title>
-      <!--Font Awesome Icons-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />      
-      <!--CSS-->
-      <link rel="stylesheet" href="./CSS/cartas.css" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>API - Async Function</title>
+      <style>
+            .show-card {
+                  margin: 8px 0 10px 2px;
+            }
+            img {
+                  display: block;
+            }
+      </style>
+      
 </head>
-<body class="bodyclass">
-      <header id="cards">
-            <section class="logo-titles">
-                <img class="logoclass" src="./IMAGENS/logo.png">
-                <h1 class="magicclass">MAGIC</h1>
-                <h3 class="gatheringclass">THE GATHERING</h3>
-                <h3 class="subtitle">ESCOLHA SUA CARTA</h3>
-            </section>
-      </header>
+<body>
+      <button class="show-card">SHOW CARD</button>
 
-      <main class="mainclass">
-            <figure class="mainclass-image">
-                <img src="./IMAGENS/card-1.jpeg" alt="Carta Magic">
-            </figure>
+      <div class="card">
+                <h3 class="card-name"></h3>
+                <h3 class="card-type"></h3>
+                <img src="" alt="" class="card-image">
+      </div>
 
-            <div class="mainclass-buttons">
-                <button class="image-btn">Card 1</button>
-                <button class="image-btn">Card 2</button>
-                <button class="image-btn">Card 3</button>
-                <button class="image-btn">Card 4</button>
-                <button class="image-btn">Card 5</button>
-                <button class="image-btn">Card 6</button>
-                <button class="image-btn">Card 7</button>
-                <button class="image-btn">Card 8</button>
-            </div>
-      </main>
-
-      <footer class="footer">contatos - email:armandocardos@gmail.com tel:+5591999180000</footer>
-
-      <!--Cards JS-->
-      <script src="./JAVASCRIPT/cartas.js"></script>
-      <script src="./JAVASCRIPT/conjunto.js"></script>
+      <script src="./JAVASCRIPT/api-async-magic.js"></script>
 
 </body>
 </html>
